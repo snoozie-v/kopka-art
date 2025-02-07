@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garret Kopka Art</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#story">Story</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- Add more navigation links if there are more sections -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="jumbotron">
+            <h1>Garrett Kopka Art</h1>
+            <img id="logo" src="/assets/garrett_image.jpg" />
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-container">
+                <img src="shirt1.jpg" alt="Tie-Dye Shirt 1" id="currentImage">
+                <div class="navigation">
+                    <button id="prev">&lt; Previous</button>
+                    <button id="next">Next &gt;</button>
+                </div>
+            </div>
+        </section>
+        <section id="story">
+            <!-- Story about your friend -->
+            <h3>Story</h3>
+            <p>Garrett specializes in blacklight reactive stretched canvas, and tiedye specialties! See ya around!</p>
+            <!-- Your story content here -->
+        </section>
+    </main>
+    <footer>
+        <div class="contact-methods">
+            <a href="https://www.facebook.com/GarrettKopkaArt" target="_blank">
+                <img src="./assets/fb.png" alt="Facebook">
+                <span>Facebook</span>
+            </a>
+            <a href="https://www.instagram.com/g_kopkart/" target="_blank">
+                <img src="./assets/insta.png" alt="Instagram">
+                <span>Instagram</span>
+            </a>
+            <a href="mailto:g.kopkart@gmail.com">
+                <img src="./assets/email.png" alt="Email">
+                <span>Email</span>
+            </a>
+        </div>
+        <div class="copyright">
+            <p>&copy; <span id="currentYear"></span> Garret Kopka Art. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</div>
+</html>

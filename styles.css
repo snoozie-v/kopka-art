@@ -1,0 +1,118 @@
+html {
+    background-color: white;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px; /* Your desired max width */
+    margin: 0 auto; /* This centers the container */
+    background-color: white; /* White background for the content area */
+}
+header {
+    background-color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: blue;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#gallery, #story{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.gallery-container {
+    text-align: center;
+    width: 100%;
+}
+
+#currentImage {
+    width: 75%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.navigation {
+    margin-bottom: 20px;
+}
+
+.navigation button {
+    font-size: 16px;
+    cursor: pointer;
+}
+#jumbotron {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#logo {
+    width: 69%; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-methods a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-methods img {
+    width: 40px; /* Adjust size as needed */
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.contact-methods span {
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+.copyright p {
+    margin: 0;
+    font-size: 0.9em;
+}
